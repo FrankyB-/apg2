@@ -8,7 +8,7 @@ enum cammode {
 	move_to_follow_object,
 }
 
-mode = cammode.move_to_follow_object;
+mode = cammode.follow_object;
 following = Player;
 boundless = false;
 
@@ -18,3 +18,6 @@ target_y = 200;
 
 view_w = camera_get_view_width(view_camera[0]);
 view_h = camera_get_view_height(view_camera[0]);
+
+mouse_xprevious = -1;
+mouse_yprevious = -1;

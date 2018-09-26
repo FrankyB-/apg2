@@ -10,7 +10,15 @@ switch (mode){
 		cy = following.y - (view_h/2);
 	break;
 	case cammode.follow_mouse_drag:
-	
+		var mx = display_mouse_get_x();
+		var my = display_mouse_get_y();
+		if (mouse_check_button(mb_left))
+		{
+			cx += (mouse_xprevious-mx) * .5;
+			cy += (mouse_yprevious-my) * .5;
+		}
+		mouse_xprevious = mx;
+		mouse_yprevious = my;
 	break;
 	case cammode.follow_mouse_border:
 		if (!point_in_rectangle(mouse_x,mouse_y,cx+(view_w*0.1), cy+(view_h*0.1),cx+(view_w*0.9),cy+(view_h*0.9)))

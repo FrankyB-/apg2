@@ -9,4 +9,3 @@ if (Weapon1)
 	state = weapon1_state;
 }
 
-
