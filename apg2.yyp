@@ -287,11 +287,27 @@
             }
         },
         {
+            "Key": "5b4493bf-b01b-47c8-a19b-db50e32a7898",
+            "Value": {
+                "id": "31d0b3d7-909b-483e-bf06-9ccd9ca3f5a0",
+                "resourcePath": "sprites\\spr_player_gun\\spr_player_gun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5b9d42c2-b536-4cfc-a833-f1cca818f4ce",
             "Value": {
                 "id": "bf046dc6-1648-436f-9a17-668cca9b11c9",
                 "resourcePath": "sprites\\sprite3\\sprite3.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5ddf413b-091d-44c0-91aa-28de7d0266c9",
+            "Value": {
+                "id": "13bcbd3c-e4d4-42fd-b31a-fbb17290843e",
+                "resourcePath": "views\\5ddf413b-091d-44c0-91aa-28de7d0266c9.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -323,6 +339,14 @@
             "Value": {
                 "id": "091358f5-0615-4cf8-99b8-2d60ee934e98",
                 "resourcePath": "sprites\\s_door\\s_door.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "70a07214-7b5a-4874-b1c3-5737048daa6b",
+            "Value": {
+                "id": "9d39c99e-27f6-4826-bde8-0103d66926ad",
+                "resourcePath": "sprites\\spr_player_crouch\\spr_player_crouch.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -407,11 +431,27 @@
             }
         },
         {
+            "Key": "896060c9-a79f-4967-a5b3-55f49219f6a8",
+            "Value": {
+                "id": "a5d46c22-ef19-46fd-b6af-1d56cfe8c958",
+                "resourcePath": "sprites\\spr_enemy_001\\spr_enemy_001.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8ecabfb2-53d7-4aa9-acc6-720ccb43c872",
             "Value": {
                 "id": "fa8c5e4d-bbdf-4b13-8794-939d54b3294f",
                 "resourcePath": "scripts\\InitPlayer\\InitPlayer.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9133e079-d463-4019-91cf-a15241e820b7",
+            "Value": {
+                "id": "ae8a1b67-77bd-43d3-b4b3-65353de44d49",
+                "resourcePath": "views\\9133e079-d463-4019-91cf-a15241e820b7.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -492,6 +532,14 @@
                 "id": "fe1fd957-0a20-4a19-a9a8-159d0ff832d9",
                 "resourcePath": "objects\\Hazard\\Hazard.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a6d61868-95e6-4d0f-a9cf-19c37923ce4c",
+            "Value": {
+                "id": "6b0d2f2d-5a48-44a2-a3d3-a1083c0f230c",
+                "resourcePath": "sprites\\spr_player_ledgegrab\\spr_player_ledgegrab.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -631,6 +679,14 @@
             }
         },
         {
+            "Key": "d3593b74-fe96-4462-9e4c-030289ed3920",
+            "Value": {
+                "id": "ea70fa1b-4cd6-4d15-a329-4c29a5cac2af",
+                "resourcePath": "sprites\\spr_player_mask\\spr_player_mask.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d42f31eb-f31f-47d2-9541-b09f7a8bcda9",
             "Value": {
                 "id": "ae40448d-c90e-4ca9-beb8-32c43ff3ae91",
@@ -643,6 +699,14 @@
             "Value": {
                 "id": "84be8cd8-32dc-4813-9573-f31448bbe797",
                 "resourcePath": "sprites\\spr_player_run\\spr_player_run.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e20d65cb-3b34-4196-a2ee-f3529c45c66e",
+            "Value": {
+                "id": "166a095e-29e8-45c3-9230-eef797f9abc0",
+                "resourcePath": "sprites\\spr_enemy_001_mask\\spr_enemy_001_mask.yy",
                 "resourceType": "GMSprite"
             }
         },

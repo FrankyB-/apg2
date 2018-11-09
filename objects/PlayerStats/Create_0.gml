@@ -2,7 +2,7 @@
 //health stats
 hp = 0;
 maxhp = 6;
-ep = 3;
+ep = 1;
 maxep = 6;
 
 hp = maxhp;
@@ -14,4 +14,8 @@ playerMaxChargeWeapon = room_speed;
 
 //World variable
 InsideRoom = false;
+
+//Action variable
+Slide = true;
+Interact_touch = false;
 

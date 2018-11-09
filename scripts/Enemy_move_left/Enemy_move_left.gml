@@ -7,7 +7,7 @@ if(wall_at_left || ledge_at_left)
     state = Enemy_move_right;
 }
 // Control the Enemy A sprite
-image_xscale = -1;
+image_xscale = 1;
 
 // Move the Enemy A
 x -= xSpeed_enemy;

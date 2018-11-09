@@ -10,8 +10,8 @@ if (!place_meeting(x,y+1,Collision))
 
 //Check for ledge grab state
 var Falling = y-yprevious > 0;
-var Wasnt_wall = !position_meeting(x+17*image_xscale, yprevious, Collision);
-var Is_wall = position_meeting(x+17*image_xscale,y,Collision);
+var Wasnt_wall = !position_meeting(x+11*image_xscale, yprevious, Collision);
+var Is_wall = position_meeting(x+11*image_xscale,y,Collision);
 
 if (Falling && Wasnt_wall && Is_wall)
 {
@@ -23,7 +23,6 @@ if (uphold && JetUnlock)
 {
 	if (currentFuel > 10)
 	{
-		Jetpacked = true;
 		state = jetpack_state;
 		previous_state = fall_state;
 	}

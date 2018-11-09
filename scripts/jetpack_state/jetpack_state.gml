@@ -7,14 +7,18 @@
 		if (ySpeed > maxFallSpeed) ySpeed = maxFallSpeed;
 	}
 	// Apply our jetpack force when our ySpeed is not maxed out and there isn't a wall above us
-	if(uphold)
+	if(uphold && Jetpacked)
 	{
 		if (ySpeed > JumpPower)
 		{
-			if (ySpeed > -maxySpeed && !place_meeting(x,y - 1, Collision))
+			if (ySpeed > -maxySpeed && !place_meeting(x,y - 16, Collision))
 				{
-					ySpeed -= jetPower + Grav + max(0,abs(ySpeed) / 2);
+					ySpeed -= jetPower + Grav// + max(0,abs(ySpeed) / 2);
 				}
+			else if (ySpeed > -maxySpeed && place_meeting(x,y - 16, Collision))
+			{
+				Jetpacked = false;
+			}
 		}
 	}
 

@@ -6,13 +6,13 @@ if (Player.WeaponFire)
 {
 		
 		shotTimer = firerate;
-		x -= image_xscale * recoilAmt;
-		with (instance_create_layer(x+sign(24),y, "Weapon", Bullets))
+		//x -= image_xscale * recoilAmt;
+		 with (instance_create_layer(x+sign(64),y, "Weapon", Bullets))
 		{
 		direction = (Player.image_xscale == 1) ? 0 : 180;
 		speed = 25;
 		image_xscale = Player.image_xscale;
-		//image_yscale = Player.image_yscale;
+		image_yscale = Player.image_yscale;
 		}
 		ChargeTimer = 0;
 }

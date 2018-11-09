@@ -382,7 +382,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "False",
             "varName": "Jetpacked",
             "varType": 3
         },
@@ -396,7 +396,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "True",
+            "value": "False",
             "varName": "JetUnlock",
             "varType": 3
         },
